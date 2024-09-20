@@ -1,6 +1,6 @@
 import { ABI, deployedAddress } from "../../contracts/deployed-contract";
 import { useEffect, useState } from "react";
-import type { PostDetails } from "../../types/posts/types";
+import type { PostDetails } from "../../types/post/types";
 import styles from "../../styles/Custom.module.css";
 import { getAccount, readContract } from "@wagmi/core";
 import config from "../../wagmi";

@@ -7,7 +7,7 @@ import type { ParsedUrlQuery } from "node:querystring";
 import { getAccount } from "@wagmi/core";
 import config from "../../wagmi";
 import Link from "next/link";
-import Poll from "../../components/Poll";
+import Poll from "../../components/ Poll";
 import styles from "../../styles/Custom.module.css";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useReadForumGetPost } from "../../contracts/generated";
