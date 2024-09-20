@@ -1,4 +1,4 @@
-import type { PollFormDetails, PostDetails } from "../types/posts/types";
+import type { PollFormDetails, PostDetails } from "../types/post/types";
 import { type FormEvent, useEffect, useState } from "react";
 import { readContract, simulateContract } from "@wagmi/core";
 import config from "../wagmi";

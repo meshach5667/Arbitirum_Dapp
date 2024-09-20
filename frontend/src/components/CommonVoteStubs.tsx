@@ -12,7 +12,7 @@ import type {
 	CommentDetails,
 	writeContractFn,
 	readContractFn,
-} from "../types/posts/types";
+} from "../types/post/types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faLongArrowDown,

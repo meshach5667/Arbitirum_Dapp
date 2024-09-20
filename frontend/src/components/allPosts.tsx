@@ -1,8 +1,7 @@
 import { readContract } from "@wagmi/core";
 import config from "../wagmi";
 import { ABI, deployedAddress } from "../contracts/deployed-contract";
-import type { PostDetails } from "../types/posts/types";
-
+import type { PostDetails } from "../types/post/types";
 const allPosts = async () => {
 	const postIdIncrement = (await readContract(config, {
     	abi: ABI,
